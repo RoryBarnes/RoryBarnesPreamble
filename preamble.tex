@@ -1,0 +1,108 @@
+\documentclass[11pt]{article}
+\usepackage{graphicx}
+%\usepackage[authoryear,round,longnamesfirst]{natbib}
+\usepackage[semicolon]{natbib}
+\bibliographystyle{natbib}
+%\bibliographystyle{unsrtnat}
+%\bibliographystyle{apj}
+\usepackage{xspace}
+\usepackage{pdfpages}
+
+\newcommand{\parti}[2]{\frac{\partial {#1}}{\partial {#2}}}
+
+\usepackage{color}
+\newcommand{\xxx}[1]{{\color{red}{#1}}}
+
+\def\etal{{\it et al.\thinspace}}
+\def\eg{{\it e.g.\xspace}}
+\def\etc{{\it etc.\xspace}}
+\def\ie{{\it i.e.\xspace}}
+\def\cf{{\it c.f.\xspace}}
+\def\gsim{~\rlap{$>$}{\lower 1.0ex\hbox{$\sim$}}}
+\def\lsim{~\rlap{$<$}{\lower 1.0ex\hbox{$\sim$}}}
+\def\wpsqm{{W/m$^{-2}$}}
+
+\def\acen{{$\alpha$~Cen}}
+\def\tess{{\it TESS}\xspace}
+\def\kepler{{\it Kepler}\xspace}
+\def\jwst{{\it JWST}\xspace}
+\def\spitzer{{\it Spitzer}\xspace}
+\def\aqua{{\it AQUA}\xspace}
+\def\topex{{\it TOPEX/POSEIDON}\xspace}
+\def\jason{{\it Jason}\xspace}
+
+\def\msun{{M_\odot}}
+\def\rsun{{R_\odot}}
+\def\mearth{{M_\oplus}}
+\def\rearth{{R_\oplus}}
+
+\def\vplanet{\texttt{\footnotesize{VPLANET}}\xspace}
+\def\atmesc{\texttt{\footnotesize{ATMESC}}\xspace}
+\def\binary{\texttt{\footnotesize{BINARY}}\xspace}
+\def\distorb{\texttt{\footnotesize{DISTORB}}\xspace}
+\def\distres{\texttt{\footnotesize{DISTRES}}\xspace}
+\def\distrot{\texttt{\footnotesize{DISTROT}}\xspace}
+\def\eqtide{\texttt{\footnotesize{EQTIDE}}\xspace}
+\def\galhabit{\texttt{\footnotesize{GALHABIT}}\xspace}
+\def\galchem{\texttt{\footnotesize{GALCHEM}}\xspace}
+\def\magmoc{\texttt{\footnotesize{MAGMOC}}\xspace}
+\def\poise{\texttt{\footnotesize{POISE}}\xspace}
+\def\radheat{\texttt{\footnotesize{RADHEAT}}\xspace}
+\def\spinbody{\texttt{\footnotesize{SPINBODY}}\xspace}
+\def\stellar{\texttt{\footnotesize{STELLAR}}\xspace}
+\def\thermint{\texttt{\footnotesize{THERMINT}}\xspace}
+\def\sporbres{\texttt{\footnotesize{SPORBRES}}\xspace}
+
+\def\nbody6{\texttt{\footnotesize{NBODY6++}}\xspace}
+\def\mercury{\texttt{\footnotesize{MERCURY}}\xspace}
+\def\approxposterior{\texttt{\footnotesize{APPROXPOSTERIOR}}\xspace}
+\def\emcee{\texttt{emcee}\xspace}
+\def\otis{\texttt{\footnotesize{OTIS}}\xspace}
+\def\rocke{\texttt{\footnotesize{ROCKE3D}}\xspace}
+\def\deeptides{\texttt{\footnotesize{DEEPTIDES}}\xspace}
+
+\def\k40{{$^{40}$K}}
+\def\th232{{$^{232}$Th}}
+%\def\ur235{{$^{235}$U}}
+%\def\ur238{{$^{238}$U}}
+\def\co2{{CO$_2$}}
+
+\def\apjs{{\it Astrophys.~J.~Supp.}}
+\def\apj{{\it Astrophys.~J.}}
+\def\apjl{{\it Astrophys.~J.~Lett.}}
+\def\aj{{\it Astron.~J.}}
+\def\aap{{\it Astron.~\&~Astrophys.}}
+\def\nat{{\it Nature}}
+\def\mnras{{\it Mon.~Not.~R.~Astron.~Soc.}}
+\def\icarus{{\it Icarus}}
+\def\pasp{{\it Proc.~Astron.~Soc.~Pac.}}
+\def\grl{{\it Geophys.~Res.~Lett.}}
+\def\gca{{\it Geochem.~Cosmochem.~Acta}}
+\def\jgr{{\it J.~Geophys.~Res.}}
+\def\cemda{{\it Cel.~Mech.~Dyn.~Astron.}}
+\def\asbio{{\it AsBio.}}
+\def\scirep{{\it Sci.~Rep.}}
+
+\newenvironment{nscenter}
+ {\parskip=0pt\par\nopagebreak\centering}
+ {\par\noindent\ignorespacesafterend}
+
+%\usepackage{epsf}
+%\usepackage{aassymb}
+%\usepackage{multicol}
+%\usepackage{amsmath}
+
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{9in}
+\setlength{\topmargin}{-0.5in}
+\setlength{\oddsidemargin}{-0.0in}
+\setlength{\evensidemargin}{\oddsidemargin}
+\setlength{\parskip}{7pt plus 2pt minus 2pt}
+\baselineskip=20pt
+\setcounter{page}{1}
+%\setcounter{figure}{1}
+
+%\usepackage{setspace}
+%\doublespacing
+
+\begin{document}
